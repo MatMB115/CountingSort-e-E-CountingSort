@@ -18,9 +18,10 @@
 
 ## Relatório
 <p>A priori, o relatório técnico será escrito utilizando um template LaTEX da SBC no Overleaf. Considerando possíveis problemas de formatação, um documento google também contera o texto cru.</p>
-***<br>
-**Grupo 8**:
-Kaique de Souza Leal Silva - 2020003596<br>
+
+<br>
+Grupo 8:<br>
+Kaique de Souza Leal Silva - 2020003596 <br>
 Matheus Luz de Faria - 2020032426<br>
 Matheus Martins Batista - 2019005687<br>
 Thais Danieli Branco de Souza - 2021001228<br>
