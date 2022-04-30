@@ -18,7 +18,7 @@ void countingSort(int array[], int size) {
   // So, its size is provided statically.
   int count[1000];
 
-  // Initialize count array with all zeros.
+  // Initialize count array with all zeros or use calloc or use memset 0
   for (int i = 0; i <= max; ++i) {
     count[i] = 0;
   }

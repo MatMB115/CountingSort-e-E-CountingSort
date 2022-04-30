@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 //Funciona conforme o vídeo https://www.youtube.com/watch?v=3bm7NgKJpj4
  
@@ -12,11 +13,11 @@ void countingSort(int arr[], int n) {
   }
 
   
-  int count_arr[10];
+  int *count_arr = (int*) calloc(10, sizeof(int)); //Calloc já aloca as posições com 0
 
-  for (int i = 0; i <= x; ++i) {
+  /*for (int i = 0; i <= x; ++i) { //loop para zerar os elementos do vetor
     count_arr[i] = 0;
-  }
+  }*/
 
   for (int i = 0; i < n; i++) {
     count_arr[arr[i]]++;
