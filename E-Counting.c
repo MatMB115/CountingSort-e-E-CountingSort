@@ -37,19 +37,19 @@ void countingSort(int arrA[], int *arrB, int tam){
     }
 }
 
-// Function to print an array
-void printArray(int* array, int size) {
+
+void imprimeArr(int* array, int size) {
   for (int i = 0; i < size; ++i) {
     printf("%d  ", array[i]);
   }
   printf("\n");
 }
 
-// Driver code
+
 int main() {
   int arrA[] = {4,8,7,9,8,5,2,1,2,8,7,4,1,2,5,4,8,9,3,1,4,7,2,1,4,2,3,23,56,98,784,54,21,654,77,124,785,354,147};
   int n = sizeof(arrA) / sizeof(arrA[0]);
   int *arrB = (int*) malloc(n * sizeof(int));
   countingSort(arrA, arrB, n);
-  printArray(arrB, n);
+  imprimeArray(arrB, n);
 }
