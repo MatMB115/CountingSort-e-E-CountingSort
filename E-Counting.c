@@ -20,18 +20,17 @@ void countingSort(int arrA[], int *arrB, int tam){
         count[i] = 0;
     }*/
 
-    // Store the count of each element
+    // Guardar a frequências dos elementos no
     for (int i = 0; i < tam; i++) {
         count[arrA[i]]++;
     }
 
-    // Store the cummulative count of each array
+    // Guardar o acumulativo das valores menores que um elemento i do vetor
     for (int i = 1; i <= max; i++) {
         count[i] += count[i - 1];
     }
 
-    // Find the index of each element of the original array in count array, and
-    // place the elements in output array
+    // Percorrer o vetor original com início no último elemento, subtituindo os índices nos elementos do vetor count e decrescendo a cada atribuição
     for (int i = tam - 1; i >= 0; i--) {
         arrB[count[arrA[i]] - 1] = arrA[i];
         count[arrA[i]]--;
