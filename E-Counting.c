@@ -19,6 +19,7 @@ void eCountingSort(int *arrA, int *arrB, int tam){
     for (i = 0; i <= max; ++i) {
         count[i] = 0;
     }
+    /* ou memset(count, 0, sizeof(count));*/
 
     // Guardar a frequências dos elementos no auxiliar Count
     for (i = 0; i < tam; i++) {

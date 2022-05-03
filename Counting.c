@@ -13,12 +13,15 @@ void countingSort(int *arrA, int *arrB, int tam){
     }
 
     //Alocar um vetor para armazenar a frequência
+    //Alocação estática, se for feita dinâmicamente só funciona com vetores
+    //Pequenos
     int count[max];
 
     // Inicializar o vetor com 0 ou calloc ou memset 0
     for (int i = 0; i <= max; ++i) {
         count[i] = 0;
     }
+    /* ou memset(count, 0, sizeof(count));*/
 
     // Guardar a frequências dos elementos no auxiliar Count
     for (int i = 0; i < tam; i++) {
