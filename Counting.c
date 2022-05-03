@@ -1,4 +1,4 @@
-//EM DESENVOLVIMENTO!!!
+//FUNCIONAL
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -20,12 +20,13 @@ void countingSort(int *arrA, int *arrB, int tam){
         count[i] = 0;
     }
 
-    // Guardar a frequências dos elementos no
+    // Guardar a frequências dos elementos no auxiliar Count
     for (int i = 0; i < tam; i++) {
         count[arrA[i]]++;
     }
 
-    // Guardar o acumulativo das valores menores que um elemento i do vetor
+    // Particularidade do CountingSort Original
+    // Guardar o acumulativo das valores menores que um elemento i do vetor original (A)
     for (int i = 1; i <= max; i++) {
         count[i] += count[i - 1];
     }
