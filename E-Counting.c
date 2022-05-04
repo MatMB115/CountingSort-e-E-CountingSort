@@ -23,11 +23,11 @@ void eCountingSort(int *arrA, int *arrB, int tam){
 
     // Guardar a frequências dos elementos no auxiliar Count
     for (i = 0; i < tam; i++) {
-        count[arrA[i]]++;
+        count[arrA[i]-1]++;
     }
 
     //E-Counting particularidade
-    for(i = 0; i <= tam; i++){
+    for(i = 0; i < tam; i++){
         while(count[i] > 0){
             arrB[j] = i;
             j++;
