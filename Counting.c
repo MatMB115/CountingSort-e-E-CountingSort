@@ -13,8 +13,6 @@ void countingSort(int *arrA, int *arrB, int tam){
     }
 
     //Alocar um vetor para armazenar a frequência
-    //Alocação estática, se for feita dinâmicamente só funciona com vetores
-    //Pequenos
     int* count = calloc(max, sizeof(int));
 
     // Inicializar o vetor com 0 ou calloc ou memset 0
