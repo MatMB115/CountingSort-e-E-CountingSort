@@ -1,4 +1,4 @@
-//Funcional
+//Não funcional
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -27,7 +27,7 @@ void eCountingSort(int *arrA, int *arrB, int tam){
     }
 
     //E-Counting particularidade
-    for(i = 0; i <= max; i++){
+    for(i = 0; i <= tam; i++){
         while(count[i] > 0){
             arrB[j] = i;
             j++;
