@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void countingSort(int *arrA, int *arrB, int max, int tam){
+void eCountingSort(int *arrA, int *arrB, int max, int tam){
     int i, j = 0;
     //Alocar um vetor para armazenar a frequência
     int* count = calloc(max + 1, sizeof(int));
@@ -64,7 +64,7 @@ int main() {
       max = arrA[i];
   }
   int *arrB = (int*) malloc(tam * sizeof(int));
-  countingSort(arrA, arrB, max, tam);
+  eCountingSort(arrA, arrB, max, tam);
   isOrdered(arrB, tam);
   imprimeArr(arrB, tam);
   isOrdered(arrA, tam);
