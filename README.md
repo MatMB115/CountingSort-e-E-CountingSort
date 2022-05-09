@@ -16,7 +16,7 @@
 - [ ] Gravar os resultados em um arquivo de saída.
 
 ## Introdução
-<p>. O método de Ordenação Interna em que se baseia esse artigo é o CountingSort, que estabelece sua ordenação por meio de contagens cuja complexidade é O(n). 
+<p>O método de Ordenação Interna em que se baseia esse artigo é o CountingSort, que estabelece sua ordenação por meio de contagens cuja complexidade é O(n). 
 O CountingSort determina que, para cada elemento de entrada x, o número de elementos deve ser menor do que x. Ele usa essas informações para colocar o elemento x diretamente em sua posição na matriz de saída. Em busca de ampliar sua eficiência o E-CoutingSort possui melhorias em comparação ao algoritmo original, pelo fato de possuir uma complexidade de tempo reduzida em aproximadamente metade do original. O objetivo principal deste artigo é analisar e implementar o método de ordenação CountingSort e seu método eficiente E-CountingSort, a fim de analisar seus desempenhos de ordenação. Dessa forma, a constatar-se-á a base dos algoritmos evidenciando suas principais características de ordenação.</p>
 
 ## Referêncial Teórico
