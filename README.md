@@ -3,17 +3,17 @@
 <br>
 
 - [x] Código base do algoritmo escrito;
-- [ ] Coletar número de comparações de chaves;
-- [ ] Coletar número de cópias de registro;
-- [ ] Mensurar tempo gasto para execução(tempo de processamento - getusage());
+- [x] Coletar número de comparações de chaves;
+- [x] Coletar número de cópias de registro;
+- [x] Mensurar tempo gasto para execução(tempo de processamento - getusage());
 - [x] Gerar termos pseudo randômicos;
-- [ ] Ordenar vetor de dados aleatórios;
-- [ ] Ordenar vetor de dados ordenados;
-- [ ] Ordenar vetor de dados descrescente;
-- [ ] Rodar com todos valores de N propostos;
-- [ ] Rodas cada N com 10 sementes diferentes;
-- [ ] Calcular a média dos dados mensurados (tempo, cópias e registros) em cada execução por semente;
-- [ ] Gravar os resultados em um arquivo de saída.
+- [x] Ordenar vetor de dados aleatórios;
+- [x] Ordenar vetor de dados ordenados;
+- [x] Ordenar vetor de dados descrescente;
+- [x] Rodar com todos valores de N propostos;
+- [x] Rodas cada N com 10 sementes diferentes;
+- [x] Calcular a média dos dados mensurados (tempo, cópias e registros) em cada execução por semente;
+- [x] Gravar os resultados em um arquivo de saída.
 
 ## Introdução
 <p>O método de Ordenação Interna em que se baseia esse artigo é o CountingSort, que estabelece sua ordenação por meio de contagens cuja complexidade é O(n). 
