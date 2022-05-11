@@ -1,0 +1,192 @@
+-------------
+COUNTING SORT
+N = 10000 - Aleatórios
+Numero medio de copias = 49995
+Numero medio de comparacoes = 0
+Numero medio do tempo = 0.000300
+-------------
+
+-------------
+COUNTING SORT
+N = 10000 - Ordenados
+Numero medio de copias = 49995
+Numero medio de comparacoes = 0
+Numero medio do tempo = 0.000400
+-------------
+
+-------------
+COUNTING SORT
+N = 10000 - Decrescente
+Numero medio de copias = 49995
+Numero medio de comparacoes = 0
+Numero medio do tempo = 0.000200
+-------------
+
+-------------
+ECOUNTING SORT
+N = 10000 - Aleatórios
+Numero medio de copias = 20000
+Numero medio de comparacoes = 10000
+Numero medio do tempo = 0.000500
+-------------
+
+-------------
+ECOUNTING SORT
+N = 10000 - Ordenados
+Numero medio de copias = 20000
+Numero medio de comparacoes = 10000
+Numero medio do tempo = 0.000100
+-------------
+
+-------------
+ECOUNTING SORT
+N = 10000 - Decrescente
+Numero medio de copias = 20000
+Numero medio de comparacoes = 10000
+Numero medio do tempo = 0.000200
+-------------
+
+-------------
+COUNTING SORT
+N = 100000 - Aleatórios
+Numero medio de copias = 229999
+Numero medio de comparacoes = 0
+Numero medio do tempo = 0.001200
+-------------
+
+-------------
+COUNTING SORT
+N = 100000 - Ordenados
+Numero medio de copias = 229999
+Numero medio de comparacoes = 0
+Numero medio do tempo = 0.000900
+-------------
+
+-------------
+COUNTING SORT
+N = 100000 - Decrescente
+Numero medio de copias = 229999
+Numero medio de comparacoes = 0
+Numero medio do tempo = 0.001100
+-------------
+
+-------------
+ECOUNTING SORT
+N = 100000 - Aleatórios
+Numero medio de copias = 200000
+Numero medio de comparacoes = 100000
+Numero medio do tempo = 0.001000
+-------------
+
+-------------
+ECOUNTING SORT
+N = 100000 - Ordenados
+Numero medio de copias = 200000
+Numero medio de comparacoes = 100000
+Numero medio do tempo = 0.001200
+-------------
+
+-------------
+ECOUNTING SORT
+N = 100000 - Decrescente
+Numero medio de copias = 200000
+Numero medio de comparacoes = 100000
+Numero medio do tempo = 0.001000
+-------------
+
+-------------
+COUNTING SORT
+N = 500000 - Aleatórios
+Numero medio de copias = 1029999
+Numero medio de comparacoes = 0
+Numero medio do tempo = 0.006500
+-------------
+
+-------------
+COUNTING SORT
+N = 500000 - Ordenados
+Numero medio de copias = 1029999
+Numero medio de comparacoes = 0
+Numero medio do tempo = 0.004700
+-------------
+
+-------------
+COUNTING SORT
+N = 500000 - Decrescente
+Numero medio de copias = 1029999
+Numero medio de comparacoes = 0
+Numero medio do tempo = 0.004500
+-------------
+
+-------------
+ECOUNTING SORT
+N = 500000 - Aleatórios
+Numero medio de copias = 1000000
+Numero medio de comparacoes = 500000
+Numero medio do tempo = 0.004100
+-------------
+
+-------------
+ECOUNTING SORT
+N = 500000 - Ordenados
+Numero medio de copias = 1000000
+Numero medio de comparacoes = 500000
+Numero medio do tempo = 0.004100
+-------------
+
+-------------
+ECOUNTING SORT
+N = 500000 - Decrescente
+Numero medio de copias = 1000000
+Numero medio de comparacoes = 500000
+Numero medio do tempo = 0.003900
+-------------
+
+-------------
+COUNTING SORT
+N = 1000000 - Aleatórios
+Numero medio de copias = 2029999
+Numero medio de comparacoes = 0
+Numero medio do tempo = 0.012100
+-------------
+
+-------------
+COUNTING SORT
+N = 1000000 - Ordenados
+Numero medio de copias = 2029999
+Numero medio de comparacoes = 0
+Numero medio do tempo = 0.009400
+-------------
+
+-------------
+COUNTING SORT
+N = 1000000 - Decrescente
+Numero medio de copias = 2029999
+Numero medio de comparacoes = 0
+Numero medio do tempo = 0.008800
+-------------
+
+-------------
+ECOUNTING SORT
+N = 1000000 - Aleatórios
+Numero medio de copias = 2000000
+Numero medio de comparacoes = 1000000
+Numero medio do tempo = 0.007600
+-------------
+
+-------------
+ECOUNTING SORT
+N = 1000000 - Ordenados
+Numero medio de copias = 2000000
+Numero medio de comparacoes = 1000000
+Numero medio do tempo = 0.007900
+-------------
+
+-------------
+ECOUNTING SORT
+N = 1000000 - Decrescente
+Numero medio de copias = 2000000
+Numero medio de comparacoes = 1000000
+Numero medio do tempo = 0.007800
+-------------
+
