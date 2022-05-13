@@ -20,7 +20,7 @@
 O CountingSort determina que, para cada elemento de entrada x, o número de elementos deve ser menor do que x. Ele usa essas informações para colocar o elemento x diretamente em sua posição na matriz de saída. Em busca de ampliar sua eficiência o E-CoutingSort possui melhorias em comparação ao algoritmo original, pelo fato de possuir uma complexidade de tempo reduzida em aproximadamente metade do original. O objetivo principal deste artigo é analisar e implementar o método de ordenação CountingSort e seu método eficiente E-CountingSort, a fim de analisar seus desempenhos de ordenação. Dessa forma, a constatar-se-á a base dos algoritmos evidenciando suas principais características de ordenação.</p>
 
 ## Referêncial Teórico
-<p>Para o referencial teórico, utilizou-se das definições dadas pelo livro, afim de entender o funcionamento e aplitude de cada um dos algoritmos.</p>
+<p>Para o referencial teórico, utilizou-se das definições dadas pelo livro, afim de entender o funcionamento e amplitude de cada um dos algoritmos.</p>
 
 ## Metodologia
 <p>A metodologia utilizada partiu do estudo e revisão do artigo e livro disponibilizados. Neles foram encontradas explicações sobre o código do algoritmo CountingSort, que foram fundamentais para a sua aplicação e montagem. Para a validação da lógica, fez-se um teste de mesa.</p>
